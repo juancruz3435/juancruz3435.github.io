@@ -2,7 +2,6 @@
 layout: default
 title: Portfolio
 ---
-<!DOCTYPE html>
 <!--all updates take a little bit to load-->
 <html lang="en"> <!--#this html is like the parent of the head and body tag (which are refered to as the children)-->
 <head>
@@ -11,34 +10,55 @@ title: Portfolio
     <meta name="description" content="Juan Cruz Niever's engineering portfolio.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-
 </head>
-<body class="main-content">
-    <header class="section sec1 header active"></header>
+<body style="background-color:blanchedalmond">
+    <header> <!--these tags dont change the look and feel of the website but it will keep things more organized-->
+        <h1>Juan Cruz Niever</h1> <!-- want this to be my name ,hgroup defines the size of the header, h1 is the largest and h6 being the smallest -->
 
+       <!-- <nav>
+        this is where we would put a navigation section
+        </nav> -->
+    </header>
+    <br/> 
+    <br/> 
     <main>
-        <section class="section sec2 about"></section>
-        <section class="section sec3 portfolio"></section>
-        <section class="section sec4 blogs"></section>
-        <section class="section sec5 contacts"></section>
+        <!--look at video to learn how to link videos-->
+        <article>
+            <!--write all of your text for article-->
+            <h2>Introduction</h2>
+            <section>
+                <p style="color:blue; background-color: black;">I am a second year electrical engineering sutdent at the University of Calgary and
+                this is my portfolio. I am also taking a minor in mechatronics with hopes of working 
+                in the robotics field in the future. </p>
+                    <!--sections in article-->
+                <a href="https://www.youtube.com/watch?v=pQN-pnXPaVg" target="_blank"><h4>Html tutorial</h4></a> <!--must include the https://, the target="_blank" gets browser to open link in a new tab-->
+                <a href="about_me.html">About me
+                <img width="50" height="60" src="solar-car-logo-small-HD.png" alt="Picture of solar car logo" /> <!-- you dont have to set both width and height, if you only set one html chooses the correct aspect ratio for the other-->
+                </a> <!--contains link within image-->
+            </section>
+            <section>
+                <h2>Reflections</h2>
+                    <h3>Postcard to self</h3> <!--the <b></b> bolds the word and <i></i> italisises it -->
+                    <p>For my postcard to self I was able to fulfill my main goal of finding a job. <!--the big tag makes that one word bigger-->
+                        Even though it is <b>not</b> engineering related it will still serve it's purpose and I will
+                        continue to work on engineering projects like the ones highlighted in this website and more.
+                    </p>    
+                <!--
+                <aside>
+                    this content is shown but not directly connected to main, like an add
+                </aside> -->
+            </section>
+        </article>
 
     </main>
-    <div class="controlls">
-        <div class="control control1-1 active-btn">
-            <i class="fa-solid fa-house"></i>
-        </div> <!--only want this one to have the active btn-->
-        <div class="control control1-2">
-            <i class="fa-solid fa-user"></i>
-        </div>
-        <div class="control control1-3">
-            <i class="fa-solid fa-briefcase"></i>
-        </div>
-        <div class="control control1-4">
-            <i class="fa-solid fa-newspaper"></i>
-        </div>
-        <div class="control control1-5">
-            <i class="fa-solid fa-envelope"></i>
-        </div>
-    </div>
+    <footer>
+
+
+    </footer>
+
+
+    <br/> <!--this causes a break in the lines! you can use these in series to make a larger break-->
+    <hr/> <!--this creates a horizontal line in the page-->
+
 </body>
 </html>
