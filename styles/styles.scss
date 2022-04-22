@@ -16,22 +16,72 @@
   //   color: black;
   // }
   .img1{
-    align-items: center;
-    padding-left: 10rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    // align-items: center;
+    // padding-left: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    // align-items: center; 
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    // max-width: 90%;
+    // height: auto;
+    // width: auto\9; /* ie8 */
 
   }
-  .header1{
+  .column {
     float: left;
-    text-align: left;
-    margin: 0 1.5%;
-    width: 100%;
-    padding-top: 1rem;
+    width: 50%;
+    padding: 10px;
   }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  // .leftimg{
+  //   //float: left;
+  //   padding-top: 1rem;
+  //   padding-right: 1rem;
+  //   padding-left: 1rem;
+  //   max-width: min-content;
+  // }
+  // .rightimg{
+  //   //float: left;
+  //   padding-top: 1rem;
+  //   padding-right: 1rem;
+  //   padding-left: 1rem;
+  //   max-width: min-content;
+  // }
+  .header1{
+    // float: left;
+    // text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #04AA6D;
+    
+  }
+  // .width70
+  // {
+  //   display: block;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   width: 80%;
+  // }
   .par1{
-    float: left;
-    text-align: left;
+    // float: left;
+    // text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
   
   .previous {
