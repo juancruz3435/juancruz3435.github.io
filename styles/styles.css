@@ -12,6 +12,24 @@ a {
   padding: 8px 16px;
 }
 
+.grid-container1 {
+  display: -ms-grid;
+  display: grid;
+  gap: 50px;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  background-color: inherit;
+  padding: 10px;
+  margin: auto;
+  width: 80%;
+}
+
+.grid-item1 {
+  background-color: inherit;
+  font-size: inherit;
+  text-align: center;
+}
+
 .img1 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -21,17 +39,14 @@ a {
   width: 50%;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
+.img1 .vid1 {
+  text-align: center;
+  margin: auto;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.img1 iframe {
+  display: block;
+  margin: auto;
 }
 
 .header1 {
