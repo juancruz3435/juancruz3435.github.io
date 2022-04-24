@@ -13,51 +13,70 @@
 </head>
 <body class="main-content">
     <h4>
-    <a href="portfolio.html" class="previous">&laquo; Previous</a>
-    <a href="#" class="next">Next &raquo;</a>
+    <a href="ENEL361.html" class="previous">&laquo; Previous</a>
+    <a href="LookingBack.html" class="next">Next &raquo;</a>
     <a href="index.html" class="home">
         <i class="fas fa-home"></i>
     </a>
     
     </h4>
-    <img class="img1" width="700" src="img/Micro_Archi.PNG" alt="Micro Architechture diagram" />
-        
-        
-    <h2 class="header1">ENEL 369 Reflection</h2> 
 
+    <br/>
+    <h2 class="header1">ENEL 300 Project:</h2> 
+    
+        
+    <h4 class="header1">First iteration: Arc Speaker</h4>
+    <img class="img1" style="width: 40%;" src="img/tesla_speaker.jpg" alt="Micro Architechture diagram" />
     <p>
         <div class="par1">
-            How well you know your computer? "Very well" used to be my answer, after finishing ENEL 369 I realised how little I actually knew. We
-            dove into the foundations of how a computer interprets a command given by the user and the process of executing that command. This was by far the most interesting course for me.
+            The first iteration of the project was a musical tesla coil. 
+            This was really cool idea with a lot complex components but sadly had to be discarded because the more that we researched the topic the more we 
+            realised how dangerous it was and decided to pivot away. The dangerous part was that if the tesla coil were to shoot electrical arcs
+             out the required voltage to reach 1 centimetre was 30 000 volts! 
+            We needed the arc to cover a gap of about 5 centimeters so this would not work for us.
+        </div>   
+    </p> 
+
+    <br/>
+
+    <h4 class="header1">Second iteration: CVC 9000</h4>
+   
+    <p>
+        <div class="par1">
+            We pivoted towards a product that still played music just a lot more safely. 
+            A device where the user can control the volume with a clap of the hands. 
+            This is the CVC 9000. 
+            <img class="img1" style="width: 40%;" src="img/cvc_9000_1.PNG" alt="Micro Architechture diagram" />
+            <br/>
+            CVC stands for “Clapping Volume Controller”, 
+            and the 9000 is for the 9000 iterations we had to go through to make this thing work.
+             How it works is when the user claps once the volume increases, two claps the volume 
+             decreases, and three claps the speakers are muted. The speakers are driven by an 
+             amplifier circuit which takes input from a device like a phone or laptop. 
+             The most challenging part about this project was getting everything onto protoboard 
+             and behaving like our set up on solder-less breadboard. We kept having issues with 
+             the protoboard like the microphone not picking up our claps, but we were able to 
+             trouble shoot and ended up just being a bad connection in the circuit. Below is a technical
+             description and a product demostration.
+             <iframe src="https://www.youtube.com/embed/vOAALzliHjY" style="padding-top: 1rem; padding-bottom: 1rem; display: block; margin: auto; width: 50%; height: 479px;" frameborder="0"></iframe>
         </div>   
     </p> 
 
     <br/>
     
-    <h4 class="header1">Takeaways from the course:</h4>
+    <h4 class="header1">Main takeaway:</h4>
+    <br/>
     <p>
         <div class="par1">
-            <li style="padding-left: 2rem;">• I enjoyed learning how to program the AVR128DB28 chip. </li>
-            <li style="padding-left: 2rem;">• We utilized the Analog Comparator (AC), the Analog to Digital Converter (ADC), 
-                and Digital to Analog Converter (DAC) peripherals in the AVR chip to convert and 
-                compare analog/digital signals. </li>
+            <img class="img1" style="width: 30%;" src="img/working_on_project.PNG" alt="Micro Architechture diagram" />
+            <li style="padding-left: 2rem;">• Getting the experience of working in a group on a project that involves a 
+            lot of technical parts is the most important thing I got from this project. I believe that this experience
+            has prepared me for how to manage future project groups and has taught me that a good team is one that 
+            communicates and helps each other out when necessary. </li>
             <br/>
              
         </div>  
 
-        <h4 class="header1">Applications:</h4>
-
-        <div class="par1">
-            In my groups ILS project we used the AVR to compare an analog signals from a microphone
-            to a reference voltage. Our intention with this was to have the microphone pick up the sound
-            of our hands clapping, which normally output a voltage of 1V, and depending on the number of claps (ranging from 1 to 3) the AVR would turn up, down,
-            or mute the volume respectively. Below if a demostration of the AVR picking up our claps and turning on LEDs.
-            
-        </div>
-
-        <iframe src="https://www.youtube.com/embed/UR5PA2c-BDY" width="479px" height="479px" style="padding-top: 1rem; padding-bottom: 1rem;" frameborder="0"></iframe>
-        
-        <div class="par1">If you would like to learn more about my ILS project refer to the ILS Project portfolio post.</div>
         <br/>
         <br/>
     </p> 
