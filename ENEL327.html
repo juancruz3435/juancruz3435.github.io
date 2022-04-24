@@ -20,15 +20,18 @@
     </a>
     
     </h4>
-    <img class="img1" width="700" src="img/Micro_Archi.PNG" alt="Micro Architechture diagram" />
+    <img class="img1" style="width: 600px;" src="img/fourier_transform_cool.png" alt="Fourier Transform" />
+    <h6 style="padding-left: 35%;" > Fourier Transform. Source: https://www.ritchievink.com/img/post-5-fft/fig_2.png</h6> 
         
         
-    <h2 class="header1">ENEL 369 Reflection</h2> 
+    <h2 class="header1">ENEL 327 Reflection</h2> 
 
     <p>
         <div class="par1">
-            How well you know your computer? "Very well" used to be my answer, after finishing ENEL 369 I realised how little I actually knew. We
-            dove into the foundations of how a computer interprets a command given by the user and the process of executing that command. This was by far the most interesting course for me.
+         "Every system is a filter" ~ Mike Potter. These famous words by my professor and turned out to be very true. From the headphones you wear to the screen you’re reading this on had some sort of filter imbedded within. 
+         Even though ENEL 327 focuses on theoretical concepts, it is still very important because it taught
+          me how signals can be sampled and transformed by a filter and recreated at the other end.
+
         </div>   
     </p> 
 
@@ -37,27 +40,28 @@
     <h4 class="header1">Takeaways from the course:</h4>
     <p>
         <div class="par1">
-            <li style="padding-left: 2rem;">• I enjoyed learning how to program the AVR128DB28 chip. </li>
-            <li style="padding-left: 2rem;">• We utilized the Analog Comparator (AC), the Analog to Digital Converter (ADC), 
-                and Digital to Analog Converter (DAC) peripherals in the AVR chip to convert and 
-                compare analog/digital signals. </li>
+            <li style="padding-left: 2rem;">• Learning how to turn a continuous signal into a discrete signal and applying various transforms to that signal.  </li>
+            <li style="padding-left: 2rem;">• The teaching project at the end of the course taught me a lot about what goes into teaching a technical subject,
+                 it is not as easy as some teachers make it seem.  </li>
+            <img class="img1" style="width: 600px;" src="img/conv_property.png" alt="Transistor waffle" />
+            <h6 style="padding-left: 30%;" > Convolution property of Fourier transform. Source: ENEL 327 Signals and Transforms - Mike Potter, 2019</h6> 
             <br/>
              
         </div>  
 
-        <h4 class="header1">Applications:</h4>
+        <h4 class="header1">Teaching project:</h4>
 
         <div class="par1">
-            In my groups ILS project we used the AVR to compare an analog signals from a microphone
-            to a reference voltage. Our intention with this was to have the microphone pick up the sound
-            of our hands clapping, which normally output a voltage of 1V, and depending on the number of claps (ranging from 1 to 3) the AVR would turn up, down,
-            or mute the volume respectively. Below if a demostration of the AVR picking up our claps and turning on LEDs.
+            The topic for my research project was the Fast Fourier Transform (FFT). 
+            The FFT is an algorithm that a system can use to take a discrete Fourier transform of a given input without requiring a ton of storage or computing power. 
+            When running simulations on MATLAB like the one below it can be seen that the regular discrete Fourier transform takes 103 seconds compared to the FFT taking less than one mili second to complete the same transform. 
+            The accuracy lost when doing an FFT is very minimal, so the trade off of some accuracy and saving
+             a LOT of time is very much worth it. 
             
         </div>
 
-        <iframe src="https://www.youtube.com/embed/UR5PA2c-BDY" width="479px" height="479px" style="padding-top: 1rem; padding-bottom: 1rem;" frameborder="0"></iframe>
-        
-        <div class="par1">If you would like to learn more about my ILS project refer to the ILS Project portfolio post.</div>
+        <img class="img1" style="width: 600px;" src="img/FFT_compare.PNG" alt="Transistor waffle" />
+        <h6 style="padding-left: 35%;" > Fast Fourier comparison. Source: Group 3FFT, ENEL 327</h6>    
         <br/>
         <br/>
     </p> 

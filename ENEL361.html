@@ -20,15 +20,21 @@
     </a>
     
     </h4>
-    <img class="img1" width="700" src="img/Micro_Archi.PNG" alt="Micro Architechture diagram" />
+
+    <br/>
+    <h2 class="header1">ENEL 361: Electronic Devices and materials </h2> 
+    
+    <img class="img1" style="width: 600px;" src="img/transistor_waffle.jpg" alt="Transistor wafer" />
+    <h6 style="padding-left: 35%;" > Transistor wafer. Source: https://unsplash.com/s/photos/wafer</h6>    
         
-        
-    <h2 class="header1">ENEL 369 Reflection</h2> 
 
     <p>
         <div class="par1">
-            How well you know your computer? "Very well" used to be my answer, after finishing ENEL 369 I realised how little I actually knew. We
-            dove into the foundations of how a computer interprets a command given by the user and the process of executing that command. This was by far the most interesting course for me.
+            I thoroughly enjoyed this class! 
+            I learnt how transistors are made and how they behave. 
+            As a computer enthusiast learning how silicon can be turned into a component like a CPU through various rounds of doping semiconductors is very interesting. 
+            The class also went in depth of how we can use combinations of circuit elements like diodes, 
+            capacitors, or transistors to make a variety of things like rectifiers, switches, and more!
         </div>   
     </p> 
 
@@ -37,10 +43,15 @@
     <h4 class="header1">Takeaways from the course:</h4>
     <p>
         <div class="par1">
-            <li style="padding-left: 2rem;">• I enjoyed learning how to program the AVR128DB28 chip. </li>
+            <li style="padding-left: 2rem;">•  My biggest take away from this course was learning how to design a circuit with something other than resistors.
+                 I now can create circuits with things like frequency filters and analog switches, 
+                 which my group and I incorporated into our project this semester. </li>
             <li style="padding-left: 2rem;">• We utilized the Analog Comparator (AC), the Analog to Digital Converter (ADC), 
                 and Digital to Analog Converter (DAC) peripherals in the AVR chip to convert and 
                 compare analog/digital signals. </li>
+
+                <img class="img1" width="700" src="img/rectified_ex.png" alt="Micro Architechture diagram" />
+                <div style="padding-left: 25%;" >What a rectified signal can look like. Source: https://i.stack.imgur.com/IRvyk.png</div>
             <br/>
              
         </div>  
@@ -48,16 +59,20 @@
         <h4 class="header1">Applications:</h4>
 
         <div class="par1">
-            In my groups ILS project we used the AVR to compare an analog signals from a microphone
-            to a reference voltage. Our intention with this was to have the microphone pick up the sound
-            of our hands clapping, which normally output a voltage of 1V, and depending on the number of claps (ranging from 1 to 3) the AVR would turn up, down,
-            or mute the volume respectively. Below if a demostration of the AVR picking up our claps and turning on LEDs.
-            
-        </div>
-
-        <iframe src="https://www.youtube.com/embed/UR5PA2c-BDY" width="479px" height="479px" style="padding-top: 1rem; padding-bottom: 1rem;" frameborder="0"></iframe>
+        In my ILS project we used a high pass filter with a cut off frequency of 500hz 
+        and a low pass filter with a cutoff frequency of 25000hz to minimize the amount 
+        of chatter that the microphone would pick up and focus only on the frequency from our 
+        hands clapping. We also implemented a mute function which was controlled by the AVR chip 
+        which when a specific pin was driven high a BJT would allow current to flow, therefore 
+        driving the speakers, and when the pin was set low, no current flowed into the BJTs and 
+        the speakers would shut off. Below is an miage of the frequency filter circuit and a 
+        signal amplifier for the microphone, If you would like to learn more about my ILS project refer to the ILS Project portfolio post.
         
-        <div class="par1">If you would like to learn more about my ILS project refer to the ILS Project portfolio post.</div>
+       
+        </div>
+        <img class="img1" style="width: 600px;" src="img/filter_circuit.jpg" alt="High and low pass filter circuit." />
+        <div style="padding-left: 35%;" > High and low pass filter circuit. Source: Group LC3B</div>
+
         <br/>
         <br/>
     </p> 
